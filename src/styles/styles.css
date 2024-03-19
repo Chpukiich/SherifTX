@@ -91,7 +91,7 @@ header {
 }
 
 .KLIP {
-  width: 55%;
+  width: 50%;
   height: 40%;
   min-width: 100px;
   min-height: 100px;
@@ -119,7 +119,7 @@ header {
   
   
 .PREVIEW {
-background-image: url(./src/img/KLIP_PREVIEW.png);
+background-image: url(../img/KLIP_PREVIEW.png);
 background-position: top right
 }
 
@@ -141,15 +141,15 @@ background-position: top right
   }
   
   .TWELVE {
-    background-image: url(/src/img/ALBUM\ 3.jpg);
+    background-image: url(../img/ALBUM\ 3.jpg);
   }
   
   .EYES {
-    background-image: url(/src/img/ALBUM\ 2.jpg);
+    background-image: url(../img/ALBUM\ 2.jpg);
   }
   
   .FACE {
-    background-image: url(/src/img/ALBUM\ 1.jpg);
+    background-image: url(../img/ALBUM\ 1.jpg);
   }
   
   
@@ -172,17 +172,18 @@ background-position: top right
   }
   
   .CASSET {
-    background-image: url(/src/img/MERCH\ 1.jpg);
+    background-image: url(../img/MERCH\ 1.jpg);
   }
 
   .HOODIE {
-    background-image: url(/src/img/MERCH\ 2.jpg);
+    background-image: url(../img/MERCH\ 2.jpg);
   }
   
   .VINYL {
-    background-image: url(/src/img/MERCH\ 3.jpg);
+    background-image: url(../img/MERCH\ 3.jpg);
   }
   
   .MASK {
-    background-image: url(/src/img/MERCH\ 4.jpg);
+    background-image: url(../img/MERCH\ 4.jpg);
   }
+  
