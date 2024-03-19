@@ -92,7 +92,7 @@ header {
 
 .KLIP {
   width: 50%;
-  height: 45%;
+  height: 40%;
   min-width: 100px;
   min-height: 100px;
   margin-right: 25px;
@@ -115,8 +115,6 @@ header {
   .button:hover {
     background-color: #a42c2c;
   }
-
-  
   
 .PREVIEW {
 background-image: url(../img/KLIP_PREVIEW.png);
@@ -186,4 +184,3 @@ background-position: top right
   .MASK {
     background-image: url(../img/MERCH\ 4.jpg);
   }
-  
