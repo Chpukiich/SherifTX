@@ -9,67 +9,6 @@
   font-style: normal;
 }
 
-body {
-  width: 100%;
-  background:#5A5955;
-  color: white;
-  text-align: center;
-  font-family: "DaysOne";
-  margin: 0;
-
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1440px;
-  padding: 0 20px;
-}
-
-.INFORMATION {
-  width: 1440px;
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif ;
-  padding: 150px 150px;
-}
-
-.horizontal {
-  display: flex;
-  align-items: center;
-}
-
-header {
-  width: 100%;
-  height: 40pt;
-  border-bottom: 1px solid #000;
-  background: #C53333;
-  
-}
-
-.horizont {
-  display: flex;
-  align-items: center;
-  text-align: left;
-}
-
-.space-between {
-  justify-content: space-between;
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-  min-width: 50px;
-  min-height: 50px;
-
-}
-.head_content {
-  background: #C53333;
-  width: 100%;
-  height: 100%;
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
 .navigation__item {
   color: #000000;
   font-size: 12px;
@@ -82,113 +21,132 @@ header {
   border: 1px solid black;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
+.horizont {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.horizontal {
+  display: flex;
+  align-items: center;
+}
+
 .navigation__left .navigation__item:not(:last-child) {
   margin-left: 20px;
   margin-right: 20px;
   max-width: 1440px;
 }
 
-
-
-.NEW_ALBUM h1 {
-  background-clip: text;
-  color: transparent;
-  font-size: 170px;
-  margin-bottom: 0px;
-  font-family:  Helvetica, Arial, sans-serif;
+.part_section {
+  width: 100%;
+  height: 40pt;
+  border-bottom: 1px solid #000;
+  background: #C53333;
 }
 
-.KLIP {
-  width: 883px;
-  height: 453px;
+body {
+  width: 100%;
+  background:#5A5955;
+  color: white;
+  text-align: center;
+  font-family: "DaysOne";
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 40pt;
+  border-bottom: 1px solid #000;
+  background: #C53333;
+}
+
+.word_with_button {
+  margin-right: calc(60px - 20px);
+}
+
+.button {
+  background-color: #C53333;
+  border: none;
+  border-radius: 14px;
+  color: white; 
+  padding: 15px 40px;
+  text-align: center;
+  font-size: 16px;
+  margin: 5px; 
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: #a42c2c;
+}
+
+
+.cartoon {
+width: 50%;
+display: flex;
+
+}
+
+.pic {
+max-width: 100%;
+}
+
+.klip {
+ display: ;
+ align-items: center
+}
+
+.album {
+  margin-bottom: 1440px;
+}
+
+.first_part {
+  align-items: center
+}
+
+footer {
+  width: 100%;
+  background:#C53333;
+  color: white;
+  text-align: center;
+  font-family: "DaysOne";
+  margin: 0;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
   min-width: 50px;
   min-height: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 20px;
+}
+
+.head_content {
+  background: #C53333;
+  width: 100%;
+  height: 0;
+  margin-left: 25px;
   margin-right: 25px;
 }
 
-  .button {
-    background-color: #C53333;
-    border: none;
-    border-radius: 14px;
-    color: white; 
-    padding: 15px 40px;
-    text-align: center;
-    font-size: 16px; 
-    margin: 5px; 
-    cursor: pointer;
-    float: left;
-    transform: translate(130%, -130%)
-  }
-  
-  .button:hover {
-    background-color: #a42c2c;
-  }
-  
-.PREVIEW {
-background-image: url(../img/KLIP_PREVIEW.png);
-background-position: top right
+.section_content {
+  background: #C53333;
+  width: 100%;
+  height: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
-  .MERCH1 {
-    display: flex;
-  }
 
-  .SALE1:hover {
-    transform: scale(1.5);
-  }
-  
-  .SALE1 {
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    margin: auto;
-    margin-bottom: 30px;
-    transition: 0.7s;
-  }
-  
-  .TWELVE {
-    background-image: url(../img/ALBUM\ 3.jpg);
-  }
-  
-  .EYES {
-    background-image: url(../img/ALBUM\ 2.jpg);
-  }
-  
-  .FACE {
-    background-image: url(../img/ALBUM\ 1.jpg);
-  }
-  
-  
-  .MERCH2 {
-    display: flex;
 
-  }
-
-  .SALE2:hover {
-    transform: scale(1.5);
-  }
-  
-  .SALE2 {
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    margin: auto;
-    margin-bottom: 30px;
-    transition: 0.7s;
-  }
-  
-  .CASSET {
-    background-image: url(../img/MERCH\ 1.jpg);
-  }
-
-  .HOODIE {
-    background-image: url(../img/MERCH\ 2.jpg);
-  }
-  
-  .VINYL {
-    background-image: url(../img/MERCH\ 3.jpg);
-  }
-  
-  .MASK {
-    background-image: url(../img/MERCH\ 4.jpg);
-  }
