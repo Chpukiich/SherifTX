@@ -9,45 +9,101 @@
   font-style: normal;
 }
 
-.navigation__item {
-  color: #000000;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 135%;
-  text-decoration: none;
-  background-color: rgb(221, 233, 235);
-  padding: 10px;
+/* хедер -------------------------- */
+
+.list {
+
+  background-color: #dce9eb;
+  color: black; 
+  padding: 15px 40px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
   border-radius: 14px 14px 14px 14px;
   border: 1px solid black;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 135%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
 }
 
-.space-between {
-  justify-content: space-between;
+.list_for_navigation {
+  display: flex;
+  justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 59px;
+    text-decoration: none;
+    padding-right: 75px;
+
 }
+
+
+.header_left {
+margin-left: 558px;
+}
+.navigation_left {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 32px;
+  display: block;
+}
+
+.navigation_item {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+}
+
+
+
 
 .horizont {
   display: flex;
-  align-items: center;
-  text-align: left;
 }
 
-.horizontal {
+.container {
+  align-items: center;
+  padding: 0;
   display: flex;
-  align-items: center;
 }
 
-.navigation__left .navigation__item:not(:last-child) {
-  margin-left: 20px;
-  margin-right: 20px;
-  max-width: 1440px;
+ .navigation__item {
+  margin-right: 9px;
+  
+  
+
 }
 
-.part_section {
+.logo {
+  width: 74px;
+  height: 67px;
+  min-width: 50px;
+  min-height: 50px;
+  margin-left: 36px;
+  margin-top: 12px;
+}
+
+.stroke_name {
+  font-size: 32px;
+  margin-left: 56px;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.verx {
   width: 100%;
-  height: 40pt;
+  height: 92px;
   border-bottom: 1px solid #000;
   background: #C53333;
 }
+
+/* части сайта -------------------------- */
 
 body {
   width: 100%;
@@ -60,13 +116,51 @@ body {
 
 header {
   width: 100%;
-  height: 40pt;
+  height: 92px;
   border-bottom: 1px solid #000;
   background: #C53333;
 }
 
+
+
+footer {
+  width: 100%;
+  background:#C53333;
+  color: white;
+  text-align: center;
+  font-family: "DaysOne";
+  margin: 0;
+}
+
+/* заголовки секций -------------------------- */
+
+.part_section {
+  width: 1440px;
+  height: 90px;
+  border-bottom: 1px solid #000;
+  background: #C53333;
+}
+ /* отступ от краев */
+section {
+  display: block;
+  padding: 118px;
+  padding-right:  58px;
+}
+
+
+
+
+
+
+/* 1 секция -------------------------- */
+
 .word_with_button {
-  margin-right: calc(60px - 20px);
+  align-items: center;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #a42c2c;
 }
 
 .button {
@@ -79,74 +173,232 @@ header {
   font-size: 16px;
   margin: 5px; 
   cursor: pointer;
-
-}
-
-.button:hover {
-  background-color: #a42c2c;
-}
-
-
-.cartoon {
-width: 50%;
-display: flex;
-
-}
-
-.pic {
-max-width: 100%;
-}
-
-.klip {
- display: ;
- align-items: center
-}
-
-.album {
-  margin-bottom: 1440px;
 }
 
 .first_part {
-  align-items: center
+  align-content: center;
 }
 
-footer {
-  width: 100%;
-  background:#C53333;
-  color: white;
-  text-align: center;
-  font-family: "DaysOne";
-  margin: 0;
+.second_part {
+
 }
 
-.logo {
-  width: 50px;
-  height: 50px;
-  min-width: 50px;
-  min-height: 50px;
+/* большая картинка -------------------------- */
+
+.cartoon {
+  width: 50%;
+  display: flex;
+  margin-left: 100px;
+  }
+  
+  .pic {
+    max-width: 887px;
+    max-height: 499px;
+    margin-right: 58px;
+    }
+
+  .klip {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: auto;
+   }
+
+/* 2 секция -------------------------- */
+
+.album {
+  margin-bottom: 1440px;
+    display: block;
+    padding: 0px;
+  }
+
+  .merch_album {
+    display: flex;
+    align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .stroke_album {
+    font-size: 32px;
+    padding-left: 60px;
+    text-align: left;
+    align-items: center;
+    
+    }
+
+    .for_button1 {
+      display: block;
+      padding: 118px;
+      padding-right:  58px;
+      margin-right: 75px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .pic_album:hover {
+      transform: scale(1.5);
+    }
+  
+    .pic_album {
+      width: 200px;
+      height: 200px;
+      background-size: cover;
+      margin: auto;
+      margin-bottom: 30px;
+      transition: 0.7s;
+  
+    }
+
+  .sale1:hover {
+    transform: scale(1.5);
+  }
+
+  .sale1 {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: auto;
+    transition: 0.7s;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+
+    .twelve {
+      background-image: url(../img/ALBUM\ 3.jpg);
+    }
+    
+    .eyes {
+      background-image: url(../img/ALBUM\ 2.jpg);
+    }
+    
+    .face {
+      background-image: url(../img/ALBUM\ 1.jpg);
+    }
+
+
+
+    
+
+/* 3 секция -------------------------- */
+
+  .merch {
+    margin-bottom: 1440px;
+      display: block;
+      padding: 0px;
+    }
+  
+    .stroke_merch {
+      font-size: 32px;
+      padding-left: 60px;
+      text-align: left;
+      align-items: center;
+      }
+
+      .for_button2 {
+        display: block;
+      padding-right:  58px;
+      margin-right: 75px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+        padding: 0
+  
+      }
+
+
+  .merch_stuff {
+    display: flex;
+      padding: 118px;
+  
+  
+  }
+
+  .sale2:hover {
+    transform: scale(1.5);
+  }
+
+  .sale2 {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: 0.7s;
+  }
+ 
+  .pic_merch:hover {
+    transform: scale(1.5);
+  }
+
+  .pic_merch {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: 0.7s;
+
+  }
+
+  .casset {
+    background-image: url(../img/MERCH\ 1.jpg);
+  }
+  
+  .hoodie {
+    background-image: url(../img/MERCH\ 2.jpg);
+  }
+  
+  .vinyl {
+    background-image: url(../img/MERCH\ 3.jpg);
+  }
+  
+  .mask {
+    background-image: url(../img/MERCH\ 4.jpg);
+  }
+  
+/* 4 секция -------------------------- */
+
+.social_media {
+
+  margin-left: calc(60px - 20px);
+  align-items: center;
+  text-align: right;
+
+
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1440px;
-  padding: 0 20px;
+
+
+.helps {
+  margin-right: calc(60px - 20px);
+  align-items: center;
+  text-align: left;
 }
 
-.head_content {
-  background: #C53333;
-  width: 100%;
-  height: 0;
-  margin-left: 25px;
-  margin-right: 25px;
-}
 
-.section_content {
-  background: #C53333;
-  width: 100%;
-  height: 40px;
-  margin-left: 25px;
-  margin-right: 25px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
