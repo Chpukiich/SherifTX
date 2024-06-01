@@ -33,17 +33,17 @@
 .list_for_navigation {
   display: flex;
   justify-content: center;
+  padding-right: 75px;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 59px;
     text-decoration: none;
-    padding-right: 75px;
-
 }
 
 
 .header_left {
 margin-left: 558px;
 }
+
 .navigation_left {
   color: white;
   text-decoration: none;
@@ -59,9 +59,6 @@ margin-left: 558px;
   display: block;
 }
 
-
-
-
 .horizont {
   display: flex;
 }
@@ -74,8 +71,6 @@ margin-left: 558px;
 
  .navigation__item {
   margin-right: 9px;
-  
-  
 
 }
 
@@ -90,7 +85,9 @@ margin-left: 558px;
 
 .stroke_name {
   font-size: 32px;
-  margin-left: 56px;
+  margin-left: 57px;
+  padding-right: 50px;
+
   justify-content: center;
   color: white;
   text-decoration: none;
@@ -207,7 +204,7 @@ section {
 /* 2 секция -------------------------- */
 
 .album {
-  margin-bottom: 1440px;
+  
     display: block;
     padding: 0px;
   }
@@ -288,7 +285,6 @@ section {
 /* 3 секция -------------------------- */
 
   .merch {
-    margin-bottom: 1440px;
       display: block;
       padding: 0px;
     }
@@ -364,23 +360,34 @@ section {
   
 /* 4 секция -------------------------- */
 
-.social_media {
-
-  margin-left: calc(60px - 20px);
-  align-items: center;
-  text-align: right;
 
 
+.big_end {
+  display: flex;
+  align: left;
+  justify-content: left;
+  align-items: left;
 }
 
-
-
-.helps {
-  margin-right: calc(60px - 20px);
-  align-items: center;
+.social_media1 {
+  display: block;
+  padding: 118px;
+  padding-right:  58px;
+  margin-right: 75px;
   text-align: left;
+  justify-content: left;
+  align-items: left;
 }
 
+.social_media2 {
+  display: block;
+  padding: 118px;
+  padding-right:  58px;
+  margin-right: 75px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+}
 
 
 
