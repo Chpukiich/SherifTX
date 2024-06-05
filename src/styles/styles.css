@@ -15,6 +15,10 @@ html {
 
 /* хедер -------------------------- */
 
+.header_left {
+  margin-left: 558px;
+  }
+
 .list {
 
   background-color: #dce9eb;
@@ -37,15 +41,9 @@ html {
 .list_for_navigation {
   display: flex;
   justify-content: center;
-  padding-right: 75px;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 59px;
-    text-decoration: none;
-}
-
-
-.header_left {
-margin-left: 558px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 59px;
+  text-decoration: none;
 }
 
 .navigation_left {
@@ -53,7 +51,8 @@ margin-left: 558px;
   text-decoration: none;
   font-weight: 500;
   font-size: 32px;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .navigation_item {
@@ -61,6 +60,12 @@ margin-left: 558px;
   text-decoration: none;
   font-size: 14px;
   display: block;
+  scroll-behavior: smooth;
+}
+
+.navigation__item {
+  margin-right: 9px;
+
 }
 
 .horizont {
@@ -73,18 +78,11 @@ margin-left: 558px;
   display: flex;
 }
 
- .navigation__item {
-  margin-right: 9px;
-
-}
-
 .logo {
   width: 74px;
   height: 67px;
   min-width: 50px;
   min-height: 50px;
-  margin-left: 36px;
-  margin-top: 12px;
 }
 
 .stroke_name {
@@ -102,6 +100,11 @@ margin-left: 558px;
   height: 92px;
   border-bottom: 1px solid #000;
   background: #C53333;
+}
+
+.header__container {
+  justify-content: space-between;
+  padding: 0 55px;
 }
 
 /* части сайта -------------------------- */
@@ -136,7 +139,7 @@ footer {
 /* заголовки секций -------------------------- */
 
 .part_section {
-  width: 1440px;
+  width: 100%;
   height: 90px;
   border-bottom: 1px solid #000;
   background: #C53333;
@@ -160,6 +163,12 @@ section {
   text-align: center;
 }
 
+.word_with_picture {
+  font-size: 32px;
+  margin-left: 57px;
+  padding-right: 50px;
+}
+
 .button:hover {
   background-color: #a42c2c;
 }
@@ -172,8 +181,11 @@ section {
   padding: 15px 40px;
   text-align: center;
   font-size: 16px;
-  margin: 5px; 
+  margin: 0px; 
   cursor: pointer;
+  text-decoration: none;
+  display:inline-block;
+  transition: 3%;
 }
 
 .first_part {
@@ -200,7 +212,7 @@ section {
 
   .klip {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     margin: auto;
    }
@@ -394,11 +406,32 @@ section {
 }
 
 .end_title { 
-
   font-size: 40px;
   text-align: left;
   align-items: left;
 
+}
+
+.social_media_item {
+  font-size: 32px;
+  margin-left: 57px;
+  padding-right: 50px;
+}
+
+
+.social_media_list {
+
+  
+}
+
+.social_media_link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 30px;
+  align-items: left;
+  display: block;
+  scroll-behavior: smooth;
 }
 
 
