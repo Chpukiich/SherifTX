@@ -131,7 +131,7 @@ footer {
   width: 100%;
   background:#C53333;
   color: white;
-  text-align: center;
+  text-align: left;
   font-family: "DaysOne";
   margin: 0;
 }
@@ -165,8 +165,7 @@ section {
 
 .word_with_picture {
   font-size: 32px;
-  margin-left: 57px;
-  padding-right: 50px;
+  text-align: center;
 }
 
 .button:hover {
@@ -313,13 +312,11 @@ section {
       }
 
       .for_button2 {
-        display: block;
-      padding-right:  58px;
-      margin-right: 75px;
+      display: block;
       text-align: center;
       justify-content: center;
       align-items: center;
-        padding: 0
+      padding: 0
   
       }
 
@@ -385,11 +382,32 @@ section {
   align-items: left;
 }
 
+.address_stroke {
+  margin-bottom: 50px;
+  width: 943px;
+  height: 70px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 14px;
+  color: black; 
+  text-align: left;
+  font-size: 32px;
+  margin: 0px; 
+  cursor: pointer;
+  text-decoration: none;
+  display:inline-block;
+  transition: 39%;
+  font-family: "DaysOne";
+  padding-left: 30px;
+  
+
+}
+
+
 .social_media1 {
   display: block;
-  padding: 118px;
-  padding-right:  58px;
-  margin-right: 75px;
+  
+  padding-right: 10px;
   text-align: left;
   justify-content: left;
   align-items: left;
@@ -397,9 +415,7 @@ section {
 
 .social_media2 {
   display: block;
-  padding: 118px;
-  padding-right:  58px;
-  margin-right: 75px;
+  padding-right: 100px;
   text-align: left;
   justify-content: left;
   align-items: left;
@@ -414,14 +430,21 @@ section {
 
 .social_media_item {
   font-size: 32px;
-  margin-left: 57px;
-  padding-right: 50px;
+  list-style-type: none;
+  
 }
 
+.social_media_item:not(:last-child) {
+
+  margin-bottom: 10px;
+}
 
 .social_media_list {
-
   
+  text-align: left;
+  align-items: left;
+  padding-left: 0px;
+
 }
 
 .social_media_link {
@@ -432,6 +455,7 @@ section {
   align-items: left;
   display: block;
   scroll-behavior: smooth;
+
 }
 
 
