@@ -1,4 +1,4 @@
-<html>
+<html lang="ru">
 
 <head>
   <title>
@@ -10,21 +10,6 @@
 </head>
 
 <body>
-
-<!-- <header class="verx">
-    <div class="container horizont head_content">
-      <img class="Logo" alt="Logo" src="./src/img/LOGOTYPE_TX.png">
-      <p class="stroke_name">SHERIF TX </p>
-      <div class="header_left">
-        <nav class="navigation">
-          <a class="navigation__item" href="">АЛЬБОМЫ</a>
-          <a class="navigation__item" href="">МЕРЧ</a>
-          <a class="navigation__item" href="">КОНТАКТЫ</a>
-        </nav>
-      </div>
-
-    </div>
-    </div> -->
 
   
 
@@ -47,13 +32,6 @@
 
       </div>
   </header>
-
-
-  
-
-
-
-
 
 
   <!-- Навигация -->
@@ -79,7 +57,7 @@
       <div class="second_part">
 
         <div class="cartoon">
-          <img src="./src/img/KLIP_PREVIEW.png" class="pic">
+          <img src="./src/img/KLIP_PREVIEW.png" class="pic" alt="Превью клипа">
         </div>
 
       </div>
@@ -87,14 +65,15 @@
     </section>
 
 
-    <section class="section album">
+ <!-- Альбомы -->
+
+    <section class="section album" id="stroke_album">
 
       <div class="container horizont head_content space-between">
 
 
         <div class="part_section">
-          <h1 id="stroke_album"></h1> <!-- ЯКОРНАЯ ССЫЛКА -->
-          <p class="stroke_album">АЛЬБОМЫ</p>
+          <h2 class="stroke_album">АЛЬБОМЫ</h2>
       
         </div>
 
@@ -104,7 +83,7 @@
       <div class="merch_album">
         <div class="for_button1">
 
-          <img src="./src/img/ALBUM 3.jpg" class="pic_album" alt="Обложка альбома 12">
+          <img src="./src/img/ALBUM3.jpg" class="pic_album" alt="Обложка альбома 12">
           <p class="word_with_picture"> 12</p>
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="button">КУПИТЬ </a>
             
@@ -113,7 +92,7 @@
 
         <div class="for_button1">
 
-          <img src="./src/img/ALBUM 2.jpg" class="pic_album" alt="Обложка альбома Ради Глаз">
+          <img src="./src/img/ALBUM2.jpg" class="pic_album" alt="Обложка альбома Ради Глаз">
           <p class="word_with_picture"> РАДИ ГЛАЗ</p>
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="button">КУПИТЬ </a>
 
@@ -121,7 +100,7 @@
 
         <div class="for_button1">
 
-          <img src="./src/img/ALBUM 1.jpg" class="pic_album" alt="Обложка альбома Лицо">
+          <img src="./src/img/ALBUM1.jpg" class="pic_album" alt="Обложка альбома Лицо">
           <p class="word_with_picture"> ЛИЦО</p>
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="button">КУПИТЬ </a>
 
@@ -131,15 +110,14 @@
 
     </section>
 
-    <!-- ___________________--------------______________- -->
+    <!-- Мерч -->
 
-    <section class="section merch">
+    <section class="section merch" id="stroke_merch">
 
       <div class="container horizont head_content space-between">
 
         <div class="part_section">
-          <h2 id="stroke_merch"></h2> <!-- ЯКОРНАЯ ССЫЛКА -->
-          <p class="stroke_merch">МЕРЧ</p>
+          <h2 class="stroke_merch">МЕРЧ</h2>
         </div>
 
       </div>
@@ -147,39 +125,38 @@
       <div class="merch_stuff">
 
         <div class="for_button2">
-          <img src="./src/img/MERCH 1.jpg" class="pic_merch">
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="button">КУПИТЬ </a>
-
-        </div>
-
-        <div class="for_button2">
-          <img src="./src/img/MERCH 2.jpg" class="pic_merch">
+          <img src="./src/img/MERCH1.jpg" class="pic_merch" alt="Кассета">
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="button">КУПИТЬ </a>
         </div>
 
         <div class="for_button2">
-          <img src="./src/img/MERCH 3.jpg" class="pic_merch">
+          <img src="./src/img/MERCH2.jpg" class="pic_merch" alt="Толстовка">
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="button">КУПИТЬ </a>
         </div>
 
         <div class="for_button2">
-          <img src="./src/img/MERCH 4.jpg" class="pic_merch">
+          <img src="./src/img/MERCH3.jpg" class="pic_merch" alt="Виниловая пластинка">
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="button">КУПИТЬ </a>
         </div>
+
+        <div class="for_button2">
+          <img src="./src/img/MERCH4.jpg" class="pic_merch" alt="Маска">
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="button">КУПИТЬ </a>
+        </div>
+      </div>
     </section>
 
   </main>
 
+ <!-- Контакты -->
+
   <footer>
 
-<section class="page_end">
+<section class="page_end" id="page_end">
 
-  <h3 id="page_end"></h3> <!-- ЯКОРНАЯ ССЫЛКА -->
-
-
-  
-			<input class="address_stroke" type="email" placeholder="EMAIL" required> </input>
-
+  <form> 
+			<input name="email" class="address_stroke" type="email" placeholder="EMAIL" required>
+    </form>
 
   <div class="big_end">
     <div class="social_media2">
@@ -214,10 +191,6 @@
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="social_media_link"> TIKTOK </a> </li>
       </ul>
     </div>
-
-
-      
-
   </div>
     
 
@@ -227,25 +200,5 @@
 
 </body>
 
-<!-- <ul class="social_media2">
-  <p class="end_title">ПОМОЩЬ</p>
-  <li class="list"> <a class="end_point" СВЯЗАТЬСЯ С НАМИ </a> </li>
-  <li class="list"> <a class="end_point" ЧАСТЫЕ ВОПРОСЫ </a> </li>
-  <li class="list"> <a class="end_point" СТАТУС ДОСТАВКИ </a> </li>
-  <li class="list"> <a class="end_point" ДОСТАВКА </a> </li>
-  <li class="list"> <a class="end_point" АККАУНТ </a> </li>
-</ul> -->
-
-<!-- <ul class="social_media1">
-  <li class="list"> <a class="end_point" href="#stroke_album">АЛЬБОМЫ</a> </li>
-  <li class="list"> <a class="end_point" href="#stroke_merch">МЕРЧ</a> </li>
-  <li class="list"> <a class="end_point" href="#page_end">КОНТАКТЫ</a> </li>
-
-  h1 class="end_point">ЯНДЕКС МУЗЫКА</h1>
-      <h1 class="h3">VK МУЗЫКА</h1>
-      <h1 class="h4">YOUTUBE</h1>
-      <h1 class="h5">TIKTOK</h1>
-    </div>
-</ul> -->
-
 </html>
+
