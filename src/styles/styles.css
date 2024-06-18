@@ -74,7 +74,6 @@ html {
 
 .container {
   align-items: center;
-  padding: 0;
   display: flex;
 }
 
@@ -146,7 +145,6 @@ footer {
 }
  /* отступ от краев */
 section {
-  display: block;
   padding: 118px;
   padding-right:  58px;
 }
@@ -189,10 +187,6 @@ section {
 
 .first_part {
   align-content: center;
-}
-
-.second_part {
-
 }
 
 /* большая картинка -------------------------- */
@@ -298,7 +292,7 @@ section {
 
 /* 3 секция -------------------------- */
 
-  .merch {
+    .merch {
       display: block;
       padding: 0px;
     }
@@ -308,23 +302,21 @@ section {
     padding-left: 60px;
     text-align: left;
     align-items: center;
-      }
+    }
 
-      .for_button2 {
-        display: block;
-        padding: 118px;
-        padding-right:  58px;
-        margin-right: 75px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-  
-      }
+    .for_button2 {
+      display: block;
+      padding: 118px;
+      padding-right:  58px;
+      margin-right: 75px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
 
+    }
 
-  .merch_stuff {
+    .merch_stuff {
       display: flex;
-      align: center;
       justify-content: center;
       align-items: center;
       display: flex;
