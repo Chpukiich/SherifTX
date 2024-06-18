@@ -182,7 +182,6 @@ section {
   cursor: pointer;
   text-decoration: none;
   display:inline-block;
-  transition: 3%;
 }
 
 .first_part {
@@ -219,7 +218,6 @@ section {
 
   .merch_album {
     display: flex;
-    align: center;
     justify-content: center;
     align-items: center;
 
@@ -374,9 +372,8 @@ section {
 
 .big_end {
   display: flex;
-  align: left;
   justify-content: left;
-  align-items: left;
+ 
 }
 
 .address_stroke {
@@ -393,7 +390,6 @@ section {
   cursor: pointer;
   text-decoration: none;
   display:inline-block;
-  transition: 39%;
   font-family: "DaysOne";
   padding-left: 30px;
   
@@ -407,7 +403,6 @@ section {
   padding-right: 10px;
   text-align: left;
   justify-content: left;
-  align-items: left;
 }
 
 .social_media2 {
@@ -415,13 +410,11 @@ section {
   padding-right: 100px;
   text-align: left;
   justify-content: left;
-  align-items: left;
 }
 
 .end_title { 
   font-size: 40px;
   text-align: left;
-  align-items: left;
 
 }
 
@@ -439,7 +432,6 @@ section {
 .social_media_list {
   
   text-align: left;
-  align-items: left;
   padding-left: 0px;
 
 }
@@ -449,7 +441,6 @@ section {
   text-decoration: none;
   font-weight: 500;
   font-size: 30px;
-  align-items: left;
   display: block;
   scroll-behavior: smooth;
 
